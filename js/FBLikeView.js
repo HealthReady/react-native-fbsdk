@@ -93,7 +93,7 @@ class LikeView extends React.Component {
 /* $FlowFixMe(>=0.43.0) - Remove this comment to see errors found when Flow
  * v0.43.0 was deployed */
 LikeView.propTypes = {
-  ...View.ropTypes,
+  ...View.propTypes,
   objectIdAndType: PropTypes.object.isRequired,
   likeViewStyle: PropTypes.oneOf(['standard', 'button', 'box_count']),
   auxiliaryViewPosition: PropTypes.oneOf(['top', 'bottom', 'inline']),
